@@ -1,14 +1,19 @@
-﻿using OOP.Webinar.Pactics;
-using OOPs;
-using System.Globalization;
+﻿using OOPs;
 
-public class Program
+namespace OOP
 {
-    public static void main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello, World!");
-        Person p = new Person();
-        Student student = new Student();
-        student.
+        public static void Main(string[] args)
+        {
+            Student student = new Student();
+            student.Walk();
+            Teacher teacher = new Teacher();
+            teacher.Walk();
+
+
+            student.Talk();
+        }
+
     }
 }
