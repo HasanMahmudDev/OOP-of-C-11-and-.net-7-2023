@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using OOP.Webinar.Pactics;
+using OOPs;
+using System.Globalization;
 
 public class Program
 {
@@ -6,6 +8,7 @@ public class Program
     {
         Console.WriteLine("Hello, World!");
         Person p = new Person();
-        p.age = 45;
+        Student student = new Student();
+        student.
     }
 }
